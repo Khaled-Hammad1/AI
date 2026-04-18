@@ -15,14 +15,14 @@ Each package has:
 Each vehicle has:
 - a maximum capacity in kilograms
 
-The objective is to minimize operational cost while respecting vehicle capacity constraints and considering package priorities when possible. :contentReference[oaicite:0]{index=0}
+The objective is to minimize operational cost while respecting vehicle capacity constraints and considering package priorities when possible. 
 
 ## Algorithms Implemented
 
 - **Simulated Annealing**
 - **Genetic Algorithm**
 
-The user can choose either algorithm at runtime to generate a solution. :contentReference[oaicite:1]{index=1}
+The user can choose either algorithm at runtime to generate a solution.
 
 ## Features
 
@@ -32,13 +32,13 @@ The user can choose either algorithm at runtime to generate a solution. :content
 - Priority-aware delivery planning
 - Runtime algorithm selection
 - Parameter tuning for both algorithms
-- User interface for displaying results :contentReference[oaicite:2]{index=2}
+- User interface for displaying results 
 
 ## Assumptions
 
 - Shop location is fixed at `(0, 0)`
 - Package destinations lie within a 2D grid
-- Distance is calculated using the **Euclidean distance formula** :contentReference[oaicite:3]{index=3}
+- Distance is calculated using the **Euclidean distance formula** 
 
 ## Recommended Parameters
 
@@ -51,7 +51,7 @@ The user can choose either algorithm at runtime to generate a solution. :content
 ### Genetic Algorithm
 - Population Size: `50 – 100`
 - Mutation Rate: `0.01 – 0.1`
-- Number of Generations: `500` :contentReference[oaicite:4]{index=4}
+- Number of Generations: `500` 
 
 ## Tech Stack
 
